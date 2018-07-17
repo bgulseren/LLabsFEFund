@@ -1,0 +1,40 @@
+Pillars of Web
+1. Content
+2. Structure (HTML)
+3. Layout (CSS)
+4. Interactivity (JScript)
+
+myfile.html - means same folder
+../myfile.html - Means Up one level
+/myfile.html - means root folder
+http://myserver.com/myfile.html - absolute adressing
+
+# CSS Notes
+
+selector{} - means which element you want to access
+for example: p {} - accesses p element, applies to everysingle p tag.
+
+## nested tags
+nav a {} - accesses a tags under nav sections.
+nav ul li {} - accesses ul li under nav sections.
+
+##by class
+.button{} acceses button class
+
+##by id
+#bios {} accesses element with id "bios" 
+
+##css priority
+1. id
+2. class
+3. nested tags
+4. tags
+
+##tips for css
+-- be as specific as possible
+-- use id ands class if not sure
+-- two fonts and two colours are usually enough. don't go crazy.
+
+-- font-family: Helvetica, Arial, sans-serif (use Helvetica first, if not available, use the rest)
+-- google fonts give a good resource!
+-- you can use inspect and click on element to play with css effects.
