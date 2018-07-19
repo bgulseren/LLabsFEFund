@@ -1,0 +1,38 @@
+body {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: gray;
+    flex-grow: 2;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 8;
+}
+
+aside, main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+aside {
+    background-color: turquoise;
+    flex-grow: 2;
+}
+
+main {
+    background-color: pink;
+    flex-grow: 6;
+}

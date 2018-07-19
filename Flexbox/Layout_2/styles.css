@@ -1,0 +1,62 @@
+body {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px red solid;
+    height: 500px;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+}
+
+.section-container section {
+    flex: 4;
+    justify-content: space-between;
+}
+
+header {
+    background-color: darkorange;
+}
+
+article {
+    background-color:turquoise;
+    flex: 4;
+}
+
+#section1 {
+    background-color:greenyellow;
+}
+
+#section2 {
+    background-color:darkslategray;
+}
+
+#section3 {
+    background-color:fuchsia;
+}
+
+aside {
+    background-color: red;
+    flex: 1;
+}
+
+footer {
+    background-color: blue;
+}
