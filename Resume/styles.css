@@ -2,6 +2,37 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+header div.rows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#skills {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#skills div {
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#skills div meter {
+    flex-grow: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#experience article{
+    display: flex;
+    flex-direction: column;
+}
+
 header a {
     text-transform: uppercase;
 }

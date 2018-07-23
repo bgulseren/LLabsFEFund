@@ -9,16 +9,26 @@
 
 <body>
   <header class="blueBG whiteText">
-    <nav>
-      <a href="#about">about</a>
-      <a href="#skills">skills</a>
-      <a href="#experience">experience</a>
-      <a href="#contact">contact</a>
-    </nav>
-    <h1>Burak Gulseren</h1>
-    <h3>Programmer</h3>
-    <img alt="Charlie Brown" src="https://pbs.twimg.com/profile_images/692042936930955266/Nc6Hz55X_400x400.jpg">
+    <div class="rows">
+      <p>Burak Gulseren</p>
+      <nav>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#experience">experience</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </div>
+    <div class="rows">
+      <div>
+        <h2>Burak Gulseren</h2>
+        <h3>Programmer</h3>
+      </div>
+      <div>
+        <img alt="Avatar" src="http://steamavatars.co/wp-content/uploads/2016/02/13c7428022b54ccf909b72e8aacecd59ae0abc40_full.jpg">
+      </div>
+    </div>
   </header>
+
   <section>
     <div id="about">
       <h2>About</h2>
@@ -39,20 +49,11 @@
   <section>
     <div id="skills" class="blueBG whiteText">
       <h2>Skills</h2>
-      <ul>
-        <li>PLC Programming</li>
-        <p>
-          <meter min="0" max="100" value="60"></meter>%60</p>
-        <li>C</li>
-        <p>
-          <meter min="0" max="100" value="60"></meter>%60</p>
-        <li>C++</li>
-        <p>
-          <meter min="0" max="100" value="60"></meter>%60</p>
-        <li>OOP</li>
-        <p>
-          <meter min="0" max="100" value="60"></meter>%60</p>
-      </ul>
+      <div><p>PLC Programming</p><meter min="0" max="100" value="60"></meter><p>%60</p></div>
+      <div><p>OOP</p><meter min="0" max="100" value="60"></meter><p>%60</p></div>
+      <div><p>OOP</p><meter min="0" max="100" value="60"></meter><p>%60</p></div>
+      <div><p>OOP</p><meter min="0" max="100" value="60"></meter><p>%60</p></div>
+    </div>
   </section>
 
   <section>
@@ -76,6 +77,7 @@
         <h5>Project & Application Engineer</h5>
         <p>Executing automation projects, testing, fixing bugz, etc.</p>
       </article>
+    </div>
   </section>
 
   <footer class="blackBG whiteText">
