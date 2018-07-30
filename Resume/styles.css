@@ -2,6 +2,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+*::selection {
+    color:orange;
+    background-color: blue;
+}
+
+/* Header */
+
 header div.rows {
     display: flex;
     justify-content: space-between;
@@ -9,6 +16,20 @@ header div.rows {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+#hero {
+    margin-right: 50px;
+    transition-property: margin-right; 
+    transition-duration: 0.01s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#hero:hover{
+    margin-right: 60px;
+}
+
+/* SKills */
 
 #skills {
     padding-left: 10px;
@@ -20,6 +41,10 @@ header div.rows {
     flex-direction: rows;
     align-items: center;
     justify-content: space-between;
+}
+
+#skills div p {
+    flex-grow: 1;
 }
 
 #skills div meter {
@@ -60,10 +85,44 @@ header a {
 nav a {
     color: white;
     text-decoration-line: none;
+    transition-property: font-size; 
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.5s;
+}
+
+nav a:hover {
+    color: black;
+    font-size: 150%;
+}
+
+#about p::first-letter {
+    font-size: 150%;
+}
+
+meter {
+    width: 200px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+
+meter::-webkit-meter-optimum-value {
+    background: orange;
+}
+
+meter::-webkit-meter-bar {
+    border-radius: 20px;
+}
+
+meter:hover {
+    width: 800px;
 }
 
 .blueBG {
-    background-color: #00aaff;
+    background: linear-gradient(to bottom, #00aaff, #00ccff);
+    border-radius: 20px;
 }
 
 .blackBG {

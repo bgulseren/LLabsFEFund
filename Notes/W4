@@ -1,0 +1,37 @@
+h1 + p {}
+
+this is selecting p after h1. Does not apply to h1.
+
+h1 ~ p {
+    this is applying to all p's after first h1 instance (applies to the same level, not to the children p of other tags)
+}
+
+h1 > p {
+
+    applies to only one level deep
+
+}
+
+h1 p {
+    applies to all ps which are children of h1.
+}
+
+#listid li:nth-of-type(even) {
+    applies to all li's under listid which are even.
+}
+
+#listid li:first-child) {
+    applies to li which is the first child of its parent(listid).
+}
+
+p {
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: 1.5s;
+    transition-timing-function: ease-in;
+}
+
+Pseudo elements & classes diff
+Pseudo classes let us style elements when they are in a specific state. For example, we can apply specific styles to an element only when it's being hovered over.
+
+You can also do some fun things with pseudo elements. While pseudo classes style elements when they are in a specific state, pseudo elements style specific parts of an element.
