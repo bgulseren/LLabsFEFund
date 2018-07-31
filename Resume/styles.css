@@ -40,7 +40,6 @@ header div.rows {
     display: flex;
     flex-direction: rows;
     align-items: center;
-    justify-content: space-between;
 }
 
 #skills div p {
@@ -48,7 +47,7 @@ header div.rows {
 }
 
 #skills div meter {
-    flex-grow: 10;
+    flex-grow: 5;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -71,7 +70,7 @@ header div.rows {
 }
 
 .pos2 {
-    flex: 8;
+    flex: 3;
 }
 
 p.date {
