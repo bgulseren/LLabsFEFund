@@ -15,14 +15,14 @@ var myPet = {
     name: "Wednesday",
     breed: "cat",
     age: 12
-  }
-  
-  myPet.name;
-  
-  //arrays
-  var pets = ["Pudge", "Wed", "Camden"];
-  
-  pets[0] // "Pudge"
-  pets[2] // "Camden"
-  
+}
+
+myPet.name;
+
+//arrays
+var pets = ["Pudge", "Wed", "Camden"];
+
+pets[0] // "Pudge"
+pets[2] // "Camden"
+
   //you can load an array with different types, elements do not have to be same type.
