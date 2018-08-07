@@ -1,0 +1,16 @@
+/*
+
+  ADD YOUR STYLES HERE
+
+*/
+
+.highlight {
+  padding: 10px;
+  outline: 2px dotted red;
+  background-color: pink;
+  transition: background-color 2s linear 3s;
+}
+
+#searchresults {
+  display: none;
+}
