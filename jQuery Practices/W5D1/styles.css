@@ -11,6 +11,11 @@
   transition: background-color 2s linear 3s;
 }
 
-#searchresults {
+.noshow {
   display: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
 }
